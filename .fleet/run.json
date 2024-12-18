@@ -5,15 +5,15 @@
             "name": "Build",
             "program": "gcc",
             "args": [
-                "$PROJECT_DIR$/main.c",
+                "$PROJECT_DIR$/c-playground/main.c",
                 "-o",
-                "$PROJECT_DIR$/main"
+                "$PROJECT_DIR$/c-playground/main"
             ]
         },
         {
             "type": "command",
             "name": "Run",
-            "program": "$PROJECT_DIR$/main"
+            "program": "$PROJECT_DIR$/c-playground/main"
         }
     ]
 }
